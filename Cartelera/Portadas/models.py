@@ -9,5 +9,5 @@ class Portada(models.Model):
 	ambito = models.ForeignKey(Ambito)
 	geolocalizacion = models.ForeignKey(Geolocalizacion)
 	
-def __unicode__(self):
-	return self.titulo
+	def __unicode__(self):
+		return self.titulo
